@@ -1,0 +1,39 @@
+<!-- Swap and solve 1
+
+Dear CTO,
+
+I want you to make a website that will help the user to make approximate calculation of their bitcoin purchase.
+
+
+First when user enters the website, it should popup a message to enter their name and age and then display it on a popup
+with welcome message. (make sure a user can only move forward whrn he/she is 18 yrs of age or above).
+ also display the name in upper-case. [week 5]
+
+then it should ask the user to enter the amount of bitcoin they want to buy, (amount can be in decimals also) and then
+multiply the amount by the price of one bitcoin. in the calculations make sure to add the transaction charges as well.
+and display the final approximate amount. [week 6]
+
+at the end create a button which submitts all the information. also when you move your cursor over the button it should display
+"Bitcoin is the King !"[week 7] -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Exchange</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/script.js"></script>
+</head>
+<body>
+    <h1>Welcome to the Bitconect Exchange, <span id="userName"></span></h1>
+    <h2>the most trustworthy and cheapest place to buy and hold your Bitcoin.</h2>
+    <div id="purchaseDetails">
+        <h3 id="userSelection"></h3>
+        <h3 id="currentPrice"></h3>
+        <h3 id="tradingFee"></h3>
+        <h3 id="totalCost"></h3>
+    </div>
+</body>
+</html>
